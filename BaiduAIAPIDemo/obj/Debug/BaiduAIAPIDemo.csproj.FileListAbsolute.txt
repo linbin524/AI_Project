@@ -1,0 +1,46 @@
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.exe.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\AOP.Common.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\BaiduAIAPI.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\Newtonsoft.Json.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\log4net.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\IrisSkin2.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\BaiduAIAPI.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\AOP.Common.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\Newtonsoft.Json.xml
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csprojResolveAssemblyReference.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.百度AI_API基础测试.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.Properties.Resources.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csproj.GenerateResource.Cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csproj.CoreCompileInputs.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.Form_BankCardRecognition.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\AipSdk.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\bin\Debug\AipSdk.xml
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.百度AI_文字识别_验证码识别.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.百度AI_API基础测试.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.Properties.Resources.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.Form_BankCardRecognition.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.百度AI_文字识别_验证码识别.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csproj.GenerateResource.Cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.csproj.CoreCompileInputs.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.exe.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\BaiduAIAPIDemo.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\AOP.Common.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\BaiduAIAPI.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\IrisSkin2.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\log4net.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\Newtonsoft.Json.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\BaiduAIAPI.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\AOP.Common.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\Newtonsoft.Json.xml
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\AipSdk.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\bin\Debug\AipSdk.xml
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIAPIDemo\obj\Debug\BaiduAIAPIDemo.百度AI_文字识别_车牌识别.resources

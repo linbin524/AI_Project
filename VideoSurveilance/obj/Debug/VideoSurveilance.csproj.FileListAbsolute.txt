@@ -1,0 +1,81 @@
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x64\concrt140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x64\cvextern.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x64\msvcp140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x64\opencv_ffmpeg330_64.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x64\vcruntime140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x86\concrt140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x86\cvextern.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x86\msvcp140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x86\opencv_ffmpeg330.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\x86\vcruntime140.dll
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\Example.VideoSurveilance.exe
+C:\Emgu\emgucv-windesktop 3.3.0.2824\bin\Example.VideoSurveilance.pdb
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csprojResolveAssemblyReference.cache
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.VideoSurveilance.resources
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.GenerateResource.Cache
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.CoreCompileInputs.cache
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.exe
+C:\Emgu\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.pdb
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x64\concrt140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x64\cvextern.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x64\msvcp140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x64\opencv_ffmpeg330_64.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x64\vcruntime140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x86\concrt140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x86\cvextern.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x86\msvcp140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x86\opencv_ffmpeg330.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\x86\vcruntime140.dll
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\Example.VideoSurveilance.exe
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\bin\Example.VideoSurveilance.pdb
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.VideoSurveilance.resources
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.GenerateResource.Cache
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.CoreCompileInputs.cache
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.exe
+D:\Develop\开源项目\人工智能\摄像头操控\emgucv-windesktop 3.3.0.2824\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x64\concrt140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x64\cvextern.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x64\msvcp140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x64\opencv_ffmpeg330_64.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x64\vcruntime140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x86\concrt140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x86\cvextern.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x86\msvcp140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x86\opencv_ffmpeg330.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\x86\vcruntime140.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\Example.VideoSurveilance.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\Example.VideoSurveilance.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csprojResolveAssemblyReference.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.VideoSurveilance.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.GenerateResource.Cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.CoreCompileInputs.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\PowerAIForEmguCV\bin\Example.VideoSurveilance.exe.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\VideoSurveilance.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\VideoSurveilance.VideoSurveilance.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.GenerateResource.Cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.CoreCompileInputs.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\Example.VideoSurveilance.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\obj\Debug\Example.VideoSurveilance.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\bin\Example.VideoSurveilance.exe.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\bin\Example.VideoSurveilance.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\bin\Example.VideoSurveilance.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Example.VideoSurveilance.exe.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Example.VideoSurveilance.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Example.VideoSurveilance.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\AOP.Common.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\BaiduAIAPI.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Emgu.CV.UI.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Emgu.CV.World.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\IrisSkin2.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\log4net.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\ZedGraph.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\AipSdk.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Newtonsoft.Json.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\BaiduAIAPI.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\AOP.Common.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\AipSdk.xml
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\VideoSurveilance\bin\Debug\Newtonsoft.Json.xml

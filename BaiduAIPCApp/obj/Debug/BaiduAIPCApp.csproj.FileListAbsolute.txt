@@ -1,0 +1,88 @@
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csprojResolveAssemblyReference.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Properties.Resources.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.GenerateResource.Cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.CoreCompileInputs.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Common.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Core.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.DBData.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Model.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Plugin.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Service.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Autofac.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\BaiduAIAPI.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\EntityFramework.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\IrisSkin2.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\log4net.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Newtonsoft.Json.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\IBatisNet.DataMapper.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\IBatisNet.Common.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\BaiduAIAPI.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Common.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Core.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Core.dll.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.DBData.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.LogPlugin.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.LogPlugin.dll.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.ManagerPlugin.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.ManagerPlugin.dll.config
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Model.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Plugin.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.Service.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.WinFormPlugin.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Autofac.xml
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\Newtonsoft.Json.xml
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csprojResolveAssemblyReference.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Form_Bast.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Form_Index.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Form_Login.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Properties.Resources.resources
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.GenerateResource.Cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.CoreCompileInputs.cache
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.exe
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.pdb
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AipSdk.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AipSdk.xml
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.WinFormPlugin.dll
+D:\Develop\ProjectSolution\源代码\ZL_Develop\PowerAI\C# PowerAIClient\BaiduAIPCApp\bin\Debug\AOP.WinFormPlugin.dll.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Form_Bast.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Form_Index.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.Properties.Resources.resources
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.GenerateResource.Cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.csproj.CoreCompileInputs.cache
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\obj\Debug\BaiduAIPCApp.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe.config
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.exe
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\BaiduAIPCApp.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.Common.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.Core.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.DBData.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.ManagerPlugin.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.Model.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.Plugin.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.WinFormPlugin.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\BaiduAIAPI.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AipSdk.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\Newtonsoft.Json.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\IBatisNet.DataMapper.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\IBatisNet.Common.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\BaiduAIAPI.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AOP.Common.pdb
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\Autofac.xml
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\AipSdk.xml
+D:\Develop\开源项目\自己的开源项目\OpenSouseCode\AIDemo\AI_Project\BaiduAIPCApp\bin\Debug\Newtonsoft.Json.xml

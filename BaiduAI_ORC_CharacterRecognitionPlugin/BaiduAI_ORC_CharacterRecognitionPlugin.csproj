@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98ED9B92-1677-4F2C-909D-2B220DEDD31E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BaiduAI_ORC_CharacterRecognitionPlugin</RootNamespace>
+    <AssemblyName>BaiduAI_ORC_CharacterRecognitionPlugin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\BaiduAIPCApp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AOP.Common">
+      <HintPath>..\BaiduAIAPI\bin\Debug\AOP.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AOP.ManagerPlugin">
+      <HintPath>..\Lib\AOP.ManagerPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="AOP.Plugin">
+      <HintPath>..\Lib\AOP.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="AOP.WinFormPlugin">
+      <HintPath>..\Lib\AOP.WinFormPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\BaiduAIAPI\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisSkin2">
+      <HintPath>..\BaiduAIAPI\bin\Debug\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\BaiduAIAPI\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\Lib\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_IDCardRecognition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_IDCardRecognition.Designer.cs">
+      <DependentUpon>Form_IDCardRecognition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Test.Designer.cs">
+      <DependentUpon>Form_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_IDCardRecognition.resx">
+      <DependentUpon>Form_IDCardRecognition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Test.resx">
+      <DependentUpon>Form_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaiduAIAPI\BaiduAIAPI.csproj">
+      <Project>{5e2ed92f-c742-4cdd-b936-ff48ea7b1ab2}</Project>
+      <Name>BaiduAIAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Pic\TIM图片2017112216192820171123.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
