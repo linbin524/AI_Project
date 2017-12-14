@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaiduAIAPI.Model
 {
-    public class ORC_CharacterRecognitionErrorModel
+    public class OCR_CharacterRecognitionErrorModel
     {
         public string log_id { get; set; }
 

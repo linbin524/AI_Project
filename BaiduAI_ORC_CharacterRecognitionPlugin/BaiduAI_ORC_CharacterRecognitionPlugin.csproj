@@ -36,26 +36,17 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AOP.Common">
-      <HintPath>..\BaiduAIAPI\bin\Debug\AOP.Common.dll</HintPath>
+    <Reference Include="AOP.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AOP.Common.dll</HintPath>
     </Reference>
-    <Reference Include="AOP.ManagerPlugin">
-      <HintPath>..\Lib\AOP.ManagerPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="AOP.Plugin">
+    <Reference Include="AOP.Plugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\AOP.Plugin.dll</HintPath>
     </Reference>
-    <Reference Include="AOP.WinFormPlugin">
+    <Reference Include="AOP.WinFormPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\AOP.WinFormPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\BaiduAIAPI\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="IrisSkin2">
-      <HintPath>..\BaiduAIAPI\bin\Debug\IrisSkin2.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net">
-      <HintPath>..\BaiduAIAPI\bin\Debug\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
@@ -91,7 +82,8 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\Lib\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Lib\Dock\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

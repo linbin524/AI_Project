@@ -5,6 +5,9 @@ using System.IO;
 using AOP.Common;
 using Baidu.Aip.Ocr;
 using BaiduAIAPI;
+using BaiduAIAPI.Model;
+using BaiduAIAPI.Model.ORCModel;
+using BaiduAIAPI.Type;
 
 namespace Baidu.Aip.API
 {
@@ -26,7 +29,7 @@ namespace Baidu.Aip.API
         public static string GeneralBasic(Image tempImage)
         {
             var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
-          
+
             var image = ImageHelper.ImageToBytes(tempImage, System.Drawing.Imaging.ImageFormat.Png);
             // 通用文字识别
             var result = client.GeneralBasic(image);
@@ -62,6 +65,7 @@ namespace Baidu.Aip.API
             var result = client.GeneralWithLocatin(image, null);
         }
 
+        #region 网络图片识别，适合网络图片文字识别用于识别一些网络上背景复杂，特殊字体的文字。
         public static void WebImage()
         {
             var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
@@ -70,6 +74,51 @@ namespace Baidu.Aip.API
             // 网图识别
             var result = client.WebImage(image, null);
         }
+
+        /// <summary>
+        /// 网络图片识别，适合网络图片文字识别用于识别一些网络上背景复杂，特殊字体的文字。
+        /// </summary>
+        /// <param name="tempImage"></param>
+        /// <returns>返回 json 字符串</returns>
+        public static string WebImage(Image tempImage)
+        {
+            var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
+            var image = ImageHelper.ImageToBytes(tempImage, System.Drawing.Imaging.ImageFormat.Png);
+            string result = client.WebImage(image, null).ToString();
+            return result;
+        }
+
+        /// <summary>
+        /// 网络图片识别，适合网络图片文字识别用于识别一些网络上背景复杂，特殊字体的文字。
+        /// </summary>
+        /// <param name="tempImage"></param>
+        public static APIBaseModel<DrivingLicenseModel> GetWebImage(Image tempImage)
+        {
+
+            APIBaseModel<DrivingLicenseModel> tempModel = new APIBaseModel<DrivingLicenseModel>();
+            tempModel.contextModel = new DrivingLicenseModel();
+
+            var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
+            var image = ImageHelper.ImageToBytes(tempImage, System.Drawing.Imaging.ImageFormat.Png);
+            string result = client.WebImage(image, null).ToString();
+            if (result.Contains("\"error_code\""))//说明异常
+            {
+
+                tempModel.state = false;
+                tempModel.contextModel.errorTypeModel = Json.ToObject<ErrorTypeModel>(result);
+                tempModel.errorMsg = tempModel.contextModel.errorTypeModel.error_discription = OCR_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.contextModel.errorTypeModel.error_code);
+
+            }
+            else
+            {
+                tempModel.state = true;
+                tempModel.contextModel.successModel = Json.ToObject<DrivingLicenseSuessResultModel>(result);
+
+            }
+            return tempModel;
+        } 
+        #endregion
+
 
         public static void Accurate()
         {
@@ -125,12 +174,30 @@ namespace Baidu.Aip.API
             result = client.IdCardBack(image);
         }
 
+        #region 
+
         public static void DrivingLicense()
         {
             var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
             var image = File.ReadAllBytes("图片文件路径");
             var result = client.DrivingLicense(image);
         }
+
+        /// <summary>
+        /// 基础
+        /// </summary>
+        /// <param name="tempImage"></param>
+        /// <returns></returns>
+        public static string DrivingLicense(Image tempImage)
+        {
+            var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
+            var image = ImageHelper.ImageToBytes(tempImage, System.Drawing.Imaging.ImageFormat.Png);
+            var result = client.DrivingLicense(image);
+            return result.ToString();
+        }
+
+
+        #endregion
 
         public static void VehicleLicense()
         {
@@ -144,6 +211,38 @@ namespace Baidu.Aip.API
             var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
             var image = File.ReadAllBytes("图片文件路径");
             var result = client.PlateLicense(image);
+        }
+
+
+        /// <summary>
+        /// 车牌识别 返回实体结果
+        /// </summary>
+        /// <param name="tempImage"></param>
+        /// <returns></returns>
+        public static APIBaseModel<DrivingLicenseModel> GetPlateLicense(Image tempImage)
+        {
+
+            APIBaseModel<DrivingLicenseModel> tempModel = new APIBaseModel<DrivingLicenseModel>();
+            tempModel.contextModel = new DrivingLicenseModel();
+
+            var client = new Ocr.Ocr(Config.clientId, Config.clientSecret);
+            var image = ImageHelper.ImageToBytes(tempImage, System.Drawing.Imaging.ImageFormat.Png);
+            string result = client.PlateLicense(image).ToString();
+            if (result.Contains("\"error_code\""))//说明异常
+            {
+
+                tempModel.state = false;
+                tempModel.contextModel.errorTypeModel = Json.ToObject<ErrorTypeModel>(result);
+                tempModel.errorMsg = tempModel.contextModel.errorTypeModel.error_discription = OCR_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.contextModel.errorTypeModel.error_code);
+
+            }
+            else
+            {
+                tempModel.state = true;
+                tempModel.contextModel.successModel = Json.ToObject<DrivingLicenseSuessResultModel>(result);
+
+            }
+            return tempModel;
         }
 
         public static void Receipt()

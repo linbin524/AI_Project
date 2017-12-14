@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI.WebControls;
 using System.Drawing;
+using AOP.Common.DataConversion;
+using BaiduAIAPI.Model;
 //----------------------------------------------
 //简介：文件操作
 //
@@ -107,5 +109,42 @@ namespace BaiduAIAPI
             return isPass;
 
         }
+
+        public static APIBaseModel<T> VerificationImage<T>(string imagePath, System.Drawing.Imaging.ImageFormat imageFormat, APIBaseModel<T> tempModel, out string errorMsg, out string strbaser64) where T : class, new()
+        {
+            #region 基础校验
+            string verificationMsg = "";
+            strbaser64 = "";
+            errorMsg = "";
+            bool isVerification = ImageVerification.VerificationImage(imagePath, out verificationMsg);
+            if (!isVerification)
+            {
+
+                errorMsg += verificationMsg;
+                tempModel.state = false;
+                tempModel.errorMsg = errorMsg;
+                return tempModel;
+            }
+            strbaser64 = ConvertDataFormatAndImage.ImageToByte64String(imagePath, imageFormat); // 图片的base64编码
+            Encoding encoding = Encoding.Default;
+            string urlEncodeImage = HttpUtility.UrlEncode(strbaser64);
+
+            byte[] tempBuffer = encoding.GetBytes(urlEncodeImage);
+
+            if (tempBuffer.Length > 1024 * 1024 * 4)
+            {
+
+                errorMsg += "图片加密 后的大小超过4MB！";
+
+                tempModel.state = false;
+                tempModel.errorMsg = errorMsg;
+                return tempModel;
+
+            }
+            tempModel.state = true;
+            return tempModel;
+            #endregion
+        }
+
     }
 }

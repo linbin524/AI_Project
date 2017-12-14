@@ -56,8 +56,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
-    <Reference Include="AOP.Common">
-      <HintPath>..\BaiduAIAPI\bin\Debug\AOP.Common.dll</HintPath>
+    <Reference Include="AOP.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AOP.Common.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.CV.UI">
       <HintPath>..\Lib\videodll\Emgu.CV.UI.dll</HintPath>

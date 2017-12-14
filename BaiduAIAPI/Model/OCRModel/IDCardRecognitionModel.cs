@@ -12,15 +12,12 @@ namespace BaiduAIAPI.Model
     /// </summary>
     public class IDCardRecognitionModel
     {
-        public bool state { get; set; }
+     
 
         public IDCardRecognitionSuccessResultModel successModel { get; set; }
 
         public ErrorTypeModel errorTypeModel { get; set; }
-        /// <summary>
-        /// 非接口信息错误
-        /// </summary>
-        public string errorMsg { get; set; }
+     
     }
 
     public class IDCardRecognitionSuccessResultModel

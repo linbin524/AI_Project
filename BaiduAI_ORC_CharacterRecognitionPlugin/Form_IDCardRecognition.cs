@@ -173,7 +173,7 @@ namespace BaiduAI_ORC_CharacterRecognitionPlugin
                         this.Invoke(new Action(() =>
                         {
                             tb_showInfo.AppendText("\r\n ---------------------------识别成功-------------------------------");
-                            tb_showInfo.AppendText("\r\n" + result.successModel.ToJson() + "\r\n");
+                            tb_showInfo.AppendText("\r\n" + result.contextModel.successModel.ToJson() + "\r\n");
                         }));
 
                     }
@@ -183,7 +183,7 @@ namespace BaiduAI_ORC_CharacterRecognitionPlugin
                         {
 
                             tb_showInfo.AppendText("\r\n-----------------------------识别失败！--------------------------------");
-                            tb_showInfo.AppendText("\r\n" + result.successModel.ToJson() + result.errorMsg + "\r\n");
+                            tb_showInfo.AppendText("\r\n" + result.contextModel.successModel.ToJson() + result.errorMsg + "\r\n");
                         }));
 
                     }

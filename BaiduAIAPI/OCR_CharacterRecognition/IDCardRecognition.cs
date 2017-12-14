@@ -29,42 +29,57 @@ namespace BaiduAIAPI.ORC_Characterbase64
         /// <param name="detect_direction">是否检测图像朝向，默认不检测，即：false。朝向是指输入图像是正常方向、逆时针旋转90/180/270度。可选值包括:- true：检测朝向；- false：不检测朝向。</param>
         /// <param name="detect_risk"> string 类型 是否开启身份证风险类型(身份证复印件、临时身份证、身份证翻拍、修改过的身份证)功能，默认不开启，即：false。可选值:true-开启；false-不开启</param>
         /// <returns>结果状态</returns>
-        public static IDCardRecognitionModel GetIdcardRecognitionString(string token, string imagePath, ref string recognitionString, out string errorMsg, string id_card_side="front", bool detect_direction=false, string detect_risk="false")
+        public static APIBaseModel<IDCardRecognitionModel> GetIdcardRecognitionString(string token, string imagePath, ref string recognitionString, out string errorMsg, string id_card_side = "front", bool detect_direction = false, string detect_risk = "false")
         {
             bool resultState = true;
-            IDCardRecognitionModel tempModel = new IDCardRecognitionModel();
 
+            APIBaseModel<IDCardRecognitionModel> tempModel = new APIBaseModel<IDCardRecognitionModel>();
+            tempModel.contextModel = new IDCardRecognitionModel();
+
+            string strbaser64 = "";
             try
             {
                 #region 基础校验
                 string verificationMsg = "";
                 errorMsg = "";
-                bool isVerification = ImageVerification.VerificationImage(imagePath, out verificationMsg);
-                if (!isVerification)
+                var verifyResult = ImageVerification.VerificationImage<IDCardRecognitionModel>(imagePath, System.Drawing.Imaging.ImageFormat.Jpeg, tempModel, out verificationMsg, out strbaser64);
+                if (!verifyResult.state)
                 {
-
-                    errorMsg += verificationMsg;
-                    tempModel.state = false;
-                    tempModel.errorMsg = errorMsg;
-                    return tempModel;
+                    return verifyResult;
                 }
-                string strbaser64 = ConvertDataFormatAndImage.ImageToByte64String(imagePath, System.Drawing.Imaging.ImageFormat.Jpeg); // 图片的base64编码
-                Encoding encoding = Encoding.Default;
-                string urlEncodeImage = HttpUtility.UrlEncode(strbaser64);
 
-                byte[] tempBuffer = encoding.GetBytes(urlEncodeImage);
+                #region 基础校验 早期版本
+                //string verificationMsg = "";
+                //errorMsg = "";
+                //bool isVerification = ImageVerification.VerificationImage(imagePath, out verificationMsg);
+                //if (!isVerification)
+                //{
 
-                if (tempBuffer.Length > 1024 * 1024 * 4)
-                {
+                //    errorMsg += verificationMsg;
+                //    tempModel.state = false;
+                //    tempModel.errorMsg = errorMsg;
+                //    return tempModel;
+                //}
+                //string strbaser64 = ConvertDataFormatAndImage.ImageToByte64String(imagePath, System.Drawing.Imaging.ImageFormat.Jpeg); // 图片的base64编码
+                //Encoding encoding = Encoding.Default;
+                //string urlEncodeImage = HttpUtility.UrlEncode(strbaser64);
 
-                    errorMsg += "图片加密 后的大小超过4MB！";
-                    recognitionString = "";
-                    tempModel.state = false;
-                    tempModel.errorMsg = errorMsg;
-                    return tempModel;
+                //byte[] tempBuffer = encoding.GetBytes(urlEncodeImage);
 
-                }
+                //if (tempBuffer.Length > 1024 * 1024 * 4)
+                //{
+
+                //    errorMsg += "图片加密 后的大小超过4MB！";
+                //    recognitionString = "";
+                //    tempModel.state = false;
+                //    tempModel.errorMsg = errorMsg;
+                //    return tempModel;
+
+                //} 
                 #endregion
+
+                #endregion
+
 
                 #region 请求接口
                 recognitionString = "";
@@ -74,18 +89,19 @@ namespace BaiduAIAPI.ORC_Characterbase64
                 var tempResult = HttpRequestHelper.Post(host, str);
                 recognitionString = tempResult;
 
-               
+
                 if (recognitionString.Contains("\"error_code\""))//说明异常
                 {
                     resultState = false;
                     tempModel.state = false;
-                    tempModel.errorTypeModel = Json.ToObject<ErrorTypeModel>(tempResult);
-                    tempModel.errorTypeModel.error_discription = ORC_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.errorTypeModel.error_code);
+                    tempModel.contextModel.errorTypeModel = Json.ToObject<ErrorTypeModel>(tempResult);
+                    tempModel.contextModel.errorTypeModel.error_discription = OCR_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.contextModel.errorTypeModel.error_code);
                 }
                 else
                 {
                     tempModel.state = true;
-                    tempModel.successModel = Json.ToObject<IDCardRecognitionSuccessResultModel>(tempResult);
+                    var temp = Json.ToObject<IDCardRecognitionSuccessResultModel>(tempResult);
+                    tempModel.contextModel.successModel = temp;
                 }
                 #endregion
 
@@ -98,7 +114,7 @@ namespace BaiduAIAPI.ORC_Characterbase64
                 tempModel.state = false;
                 tempModel.errorMsg = ex.ToString();
                 return tempModel;
-               
+
             }
         }
 

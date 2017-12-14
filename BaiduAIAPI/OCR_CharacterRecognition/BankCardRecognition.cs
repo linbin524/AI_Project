@@ -65,7 +65,7 @@ namespace BaiduAIAPI.ORC_CharacterRecognition
                     resultState = false;
                     tempModel.state = false;
                     tempModel.errorTypeModel = Json.ToObject<Model.ErrorTypeModel>(tempResult);
-                    tempModel.errorTypeModel.error_discription = ORC_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.errorTypeModel.error_code);
+                    tempModel.errorTypeModel.error_discription = OCR_CharacterRecognitionErrorType.GetErrorCodeToDescription(tempModel.errorTypeModel.error_code);
                 }
                 else
                 {
